@@ -1,0 +1,55 @@
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..114d9ce
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,7 @@
++# Git Tutorial
++
++## Usage
++
++- fork this repo and clone your fork
++- add this repo (delta/Git-Tutorial) as remote called upstream on your local
++- open any text editor in the folder and start the tutorial from welcome.txt
+diff --git a/instructions.txt b/instructions.txt
+deleted file mode 100644
+index 0bb0e16..0000000
+--- a/instructions.txt
++++ /dev/null
+@@ -1,41 +0,0 @@
+-hi guys this is the add-commit branch.
+-
+-Follow the instructions below in the order and go to the next step only after completing the previous one.
+-
+-1) check the log of this branch you should see 2 commits
+-
+-2) check the diff between the first and second commit in this branch
+-
+-3) check the status of the branch
+-
+-4) create a file called "addMe.txt"
+-
+-5) add 1 pragraph of lorem ipsum text (https://www.lipsum.com/feed/html) to addMe.txt
+-
+-6) check the git status
+-
+-7) copy paste the git status to a file called "status.txt"
+-
+-8) add these files to staging area
+-
+-9) commit these files
+-
+-10) check the git status now and update it to "status.txt"
+-
+-11) add one more paragraph of lorem ipsum to "addMe.txt"
+-
+-12) check the diff between current working directory and HEAD
+-
+-13) create a file called "dontAddme.txt" and copy paste this diff to this file
+-
+-14) add only "addMe.txt" and "status.txt" to staging area (dont add "dontAddme.txt")
+-
+-15) check the git status now
+-
+-16) commit now
+:
